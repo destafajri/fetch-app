@@ -26,6 +26,6 @@ func (handler *getFetchHandler)FetchDataHandler(c *gin.Context) {
 	}
 
 	response := helper.Resource()
-
+	
 	c.JSON(http.StatusOK, response)
 }
