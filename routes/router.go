@@ -28,6 +28,6 @@ func Router() {
 	//end point
 	api.GET("/fetch", getFetchData.FetchDataHandler)
 	
-	router.Run("0.0.0.0:8000")
+	router.Run("0.0.0.0:9000")
 
 }
